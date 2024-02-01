@@ -49,6 +49,41 @@ nav .logo{
     display: flex;
     align-items: center;
 }
+nav .titoli .elenco:hover{
+    background-color:whitesmoke;
+    border: 13px solid whitesmoke;
+}
+.elenco{
+    transition: 1s ease;
+}
+.vendite:hover{
+    background-color: whitesmoke;
+    border: 13px solid whitesmoke;
+}
+.vendite{
+    transition: 1s ease;
+}
+.scarica{
+    transition: 1s ease;
+}
+.scarica:hover{
+    background-color: whitesmoke;
+    border: 13px solid whitesmoke;
+}
+.elenco2{
+    transition: 1s ease;
+}
+.elenco2:hover{
+    background-color: whitesmoke;
+    border: 13px solid whitesmoke;
+    
+}
+.fa-arrow-right{
+    transition: 0.3s ease-in-out;
+}
+.freccia:hover .fa-arrow-right{
+    padding-left: 10px;
+}
 nav .titoli {
     display: flex;
     align-items: center;
@@ -89,6 +124,19 @@ nav .menu ul li .comincia{
 nav .menu ul .bars {
     display: none;
 }
+.fa-arrow-right{
+    transition: 0.3s ease-in-out;
+}
+.cta-1:hover .fa-arrow-right{
+    padding-left: 10px;
+}
+.fa-arrow-right{
+    transition: 0.3s ease-in-out;
+}
+.cta-2:hover .fa-arrow-right{
+    padding-left: 10px;
+}
+
     
 /*03*/
 .jumbo{
@@ -142,6 +190,37 @@ nav .menu ul .bars {
 .video video{
    width: 100%;
    }
+/*04*/
+.sotto-video{
+    background-color:antiquewhite;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.sotto-video h1{
+    font-size: 35px;
+}
+.sotto-video p{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sotto-video a{
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.fa-arrow-right{
+    transition: 0.3s ease-in-out;
+}
+.sotto-video a:hover .fa-arrow-right{
+    padding-left: 10px;
+}
+
 
 /*xx-Media Query*/
 
