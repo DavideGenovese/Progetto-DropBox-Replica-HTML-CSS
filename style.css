@@ -120,6 +120,7 @@ nav .menu ul li .comincia{
     align-items: center;
     background-color: #3984FF;
     font-weight: bold;
+    color: white;
 }
 nav .menu ul .bars {
     display: none;
@@ -220,7 +221,17 @@ nav .menu ul .bars {
 .sotto-video a:hover .fa-arrow-right{
     padding-left: 10px;
 }
-
+/*05*/
+.type-radio{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding-left: 170px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
 
 /*xx-Media Query*/
 
